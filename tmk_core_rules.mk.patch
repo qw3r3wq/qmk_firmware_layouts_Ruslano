@@ -13,3 +13,5 @@ index fc2dc68be2..57d39d20fd 100644
         $(eval FREE_SIZE=$(shell expr $(MAX_SIZE) - $(CURRENT_SIZE)))
         $(eval OVER_SIZE=$(shell expr $(CURRENT_SIZE) - $(MAX_SIZE)))
 ruslanas@kaledos:~/qmk_firmware$
+
+### https://gist.github.com/sigprof/8d85837036f7c96b6da63f4eb5fe0bd5
