@@ -22,7 +22,7 @@ Big Thanks goes to [/u/jpconstantineau](https://www.reddit.com/user/jpconstantin
  - Halo True From MassDrop https://drop.com/buy/drop-halo-switch-pack
  - Keycaps
    - DROP + MATT3O MT3 /DEV/TTY KEYCAP SET - 1800 Kit https://drop.com/buy/drop-matt3o-mt3-dev-tty-keycap-set - Based on the profile from the iconic IBM® beamspring terminals of the 1970s
-   - MATT3O NERD DSA KEYCAP SET - Elfish Numpad Kit https://drop.com/buy/matt3o-nerd-dsa-keycap-set-massdrop-exclusive
+   - MATT3O NERD DSA KEYCAP SET - Elvish Numpad Kit https://drop.com/buy/matt3o-nerd-dsa-keycap-set-massdrop-exclusive
 ### Build
 ```
 qmk compile -kb ergotravel/rev1 -km Ruslano
