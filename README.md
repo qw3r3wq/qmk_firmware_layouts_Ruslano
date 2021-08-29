@@ -15,6 +15,8 @@ qmk flash -kb jj40 -km Ruslano
 Without it was receiving size-check error.
 ## ErgoTravel V1.03
 [ErgoTravel V1.03](keyboards/ergotravel/keymaps/Ruslano/keymap.c)
+
+Big Thanks goes to [/u/jpconstantineau](https://www.reddit.com/user/jpconstantineau) for designing it in a first place! You can find Build doc [here](https://github.com/jpconstantineau/ErgoTravel/)
 ### Parts
  - https://mechboards.co.uk/shop/kits/ergotravel-kit/
  - Halo True From MassDrop https://drop.com/buy/drop-halo-switch-pack
