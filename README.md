@@ -11,7 +11,7 @@ qmk compile -kb jj40 -km Ruslano
 qmk flash -kb jj40 -km Ruslano
 ```
 ### Troubleshooting
-`(Troubleshooting/tmk_core_rules.mk.patch)` File might be needed to apply to Debian based distros, to be able to compile.
+(Troubleshooting/tmk_core_rules.mk.patch) File might be needed to apply to Debian based distros, to be able to compile.
 Without it was receiving size-check error.
 ## ErgoTravel V1.03
 [ErgoTravel V1.03](keyboards/ergotravel/keymaps/Ruslano/keymap.c)
