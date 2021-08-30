@@ -1,6 +1,6 @@
 # qmk_firmware keymaps Made by Ruslanas
 ## JJ40
-[JJ40 keymap.c](keyboards/jj40/keymaps/Ruslano/keymap.c)
+[JJ40 keymap.c](keyboards/kprepublic/jj40/keymaps/Ruslano/keymap.c)
 ### Parts
  - PCB https://www.aliexpress.com/item/32828781103.html
  - Plate https://www.aliexpress.com/item/1005001627320105.html
