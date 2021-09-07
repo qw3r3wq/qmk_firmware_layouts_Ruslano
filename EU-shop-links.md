@@ -1,3 +1,5 @@
+https://keebmap.xyz/
+
 | URL | Region | Country | Continent |
 | ---: | :---: | :---: | :--- |
 | https://mykeyboard.eu/ | EU | Belgium | Europe |
