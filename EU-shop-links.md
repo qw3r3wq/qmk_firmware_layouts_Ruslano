@@ -1,6 +1,7 @@
 | URL | Region | Country | Continent |
 | ---: | :---: | :---: | :--- |
 | https://mykeyboard.eu/ | EU | Belgium | Europe |
+| https://salvun.com/ | EU | Belgium | Europe |
 | https://42keebs.eu/ | EU | Czech Republic | Europe |
 | https://candykeys.com/ | EU | Germany | Europe |
 |	https://keygem.store/ | EU | Germany | Europe |
@@ -9,7 +10,6 @@
 | https://splitkb.com/ | EU | Netherlands | Europe |
 | https://bastardkb.com/ | EU | Netherlands | Europe |
 | https://Falba.tech | EU | Poland | Europe |
-| https://salvun.com/ | EU | ??? | Europe |
 | https://mekanisktastatur.no/ | Norway | Norway | Europe |
 |	https://mekanisk.com/ | Norway | Norway | Europe |
 | https://prototypist.net/ | UK | UK | Europe |
