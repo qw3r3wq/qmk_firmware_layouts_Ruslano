@@ -14,3 +14,4 @@
 | https://www.ukkeycaps.co.uk/ | UK | UK | Europe |
 | https://mekanisktastatur.no/ | Norway | Norway | Europe |
 | https://salvun.com/ | EU |  | Europe |
+| https://keycapsss.com/ | EU | Germany | Europe |
