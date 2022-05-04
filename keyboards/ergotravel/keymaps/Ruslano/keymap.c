@@ -1,13 +1,14 @@
 #include QMK_KEYBOARD_H
 
 //#define _QWERTY 0
-#define _LOWER 1
-#define _RAISE 2
-#define _ADJUST 16
+//#define _LOWER 1
+//#define _RAISE 2
+//#define _ADJUST 16
 #define DEFAULT TO(_QWERTY)
 #define LOWER MO(_LOWER) // momentary lower layer
 #define RAISE MO(_RAISE) // momentary raise layer
 #define ADJUST MO(_ADJUST) // momentary adjust layer
+#define NUMPAD TG(_ADJUST) // lock to adjust layer
 
 //#define CALTDEL LCTL(LALT(KC_DEL))
 //#define TSKMGR LCTL(LSFT(KC_ESC))
