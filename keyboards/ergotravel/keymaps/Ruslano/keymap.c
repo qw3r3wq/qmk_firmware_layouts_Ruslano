@@ -5,6 +5,7 @@
 #define _LOWER 1
 #define _RAISE 2
 #define _ADJUST 16
+#define DEFAULT TO(_QWERTY)
 
 enum custom_keycodes {
   QWERTY = SAFE_RANGE,
@@ -63,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+---------------|
      KC_LSFT, KC_PAST,  KC_KP_7, KC_KP_8, KC_KP_9, KC_PENT, _______,         _______, _______, _______, _______, KC_MRWD, KC_VOLU, KC_MFFD,
   //|--------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+---------------|
-     KC_LCTL, KC_PEQL,  KC_KP_0, KC_PDOT,          KC_RALT, KC_SPC,          RESET,   TG(0),            _______, KC_MPRV, KC_VOLD, KC_MNXT
+     KC_LCTL, KC_PEQL,  KC_KP_0, KC_PDOT,          KC_RALT, KC_SPC,          RESET,   TO(0),            DEFAULT, KC_MPRV, KC_VOLD, KC_MNXT
   //`--------+--------+--------+--------+--------+--------+--------/        \--------+--------+--------+--------+--------+--------+---------------'
   )
 
@@ -72,6 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
+      /* Not needed?
     case QWERTY:
       if (record->event.pressed) {
         #ifdef AUDIO_ENABLE
@@ -109,6 +111,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       }
       return false;
       break;
+      */
   }
   return true;
 }
