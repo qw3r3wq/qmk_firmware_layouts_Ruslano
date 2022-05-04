@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+---------------|
      LSFT_T(KC_DEL),KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_MINS,          KC_UNDS, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,   RSFT_T(KC_SLSH),
   //|--------------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+---------------|
-     KC_LCTL,       KC_LGUI, KC_LALT, LOWER,            RAISE,   KC_SPC,           KC_SPC,  TG(16),           KC_SCLN, KC_LEFT, KC_DOWN, KC_RGHT
+     KC_LCTL,       KC_LGUI, KC_LALT, LOWER,            RAISE,   KC_SPC,           KC_SPC,  NUMPAD,           KC_SCLN, KC_LEFT, KC_DOWN, KC_RGHT
   //`--------------+--------+--------+--------+--------+--------+--------/        \--------+--------+--------+--------+--------+--------+---------------'
   ),
 
@@ -73,45 +73,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
-      /* Not needed?
-    case QWERTY:
-      if (record->event.pressed) {
-        #ifdef AUDIO_ENABLE
-          PLAY_SONG(tone_qwerty);
-        #endif
-        set_single_persistent_default_layer(_QWERTY);
-      }
-      return false;
-      break;
-    case LOWER:
-      if (record->event.pressed) {
-        layer_on(_LOWER);
-        update_tri_layer(_LOWER, _RAISE, _ADJUST);
-      } else {
-        layer_off(_LOWER);
-        update_tri_layer(_LOWER, _RAISE, _ADJUST);
-      }
-      return false;
-      break;
-    case RAISE:
-      if (record->event.pressed) {
-        layer_on(_RAISE);
-        update_tri_layer(_LOWER, _RAISE, _ADJUST);
-      } else {
-        layer_off(_RAISE);
-        update_tri_layer(_LOWER, _RAISE, _ADJUST);
-      }
-      return false;
-      break;
-    case ADJUST:
-      if (record->event.pressed) {
-        layer_on(_ADJUST);
-      } else {
-        layer_off(_ADJUST);
-      }
-      return false;
-      break;
-      */
   }
   return true;
 }
