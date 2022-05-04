@@ -7,8 +7,8 @@
  - CASE https://www.aliexpress.com/item/1005001390320865.html
 ### Build
 ```
-qmk compile -kb jj40 -km Ruslano
-qmk flash -kb jj40 -km Ruslano
+qmk compile -kb kprepublic/jj40 -km Ruslano
+qmk flash -kb kprepublic/jj40 -km Ruslano
 ```
 ### Troubleshooting
 [Troubleshooting/tmk_core_rules.mk.patch](Troubleshooting/tmk_core_rules.mk.patch) File might be needed to apply to Debian based distros, to be able to compile.
