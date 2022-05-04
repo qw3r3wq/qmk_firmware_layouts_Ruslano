@@ -6,16 +6,17 @@
 #define _RAISE 2
 #define _ADJUST 16
 #define DEFAULT TO(_QWERTY)
-
-enum custom_keycodes {
-  QWERTY = SAFE_RANGE,
-  LOWER,
-  RAISE,
-  ADJUST,
-};
-
+#define LOWER MO(_LOWER) // momentary lower layer
+#define RAISE MO(_RAISE) // momentary raise layer
+#define ADJUST MO(_ADJUST) // momentary adjust layer
 #define CALTDEL LCTL(LALT(KC_DEL))
 #define TSKMGR LCTL(LSFT(KC_ESC))
+enum custom_keycodes {
+  _QWERTY = SAFE_RANGE,
+  _LOWER,
+  _RAISE,
+  _ADJUST,
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
