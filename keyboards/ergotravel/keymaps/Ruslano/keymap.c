@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 
-
 #define _QWERTY 0
 #define _LOWER 1
 #define _RAISE 2
@@ -9,10 +8,12 @@
 #define LOWER MO(_LOWER) // momentary lower layer
 #define RAISE MO(_RAISE) // momentary raise layer
 #define ADJUST MO(_ADJUST) // momentary adjust layer
-#define CALTDEL LCTL(LALT(KC_DEL))
-#define TSKMGR LCTL(LSFT(KC_ESC))
+
+//#define CALTDEL LCTL(LALT(KC_DEL))
+//#define TSKMGR LCTL(LSFT(KC_ESC))
+
 enum custom_keycodes {
-  _QWERTY = SAFE_RANGE,
+  _QWERTY,
   _LOWER,
   _RAISE,
   _ADJUST,
@@ -42,7 +43,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------+--------|        |--------+--------+--------+--------+--------+--------+---------------|
      KC_LCTL, KC_LGUI, KC_LALT, KC_PSCR,          _______, KC_SPC,           KC_SPC,  KC_RALT,          KC_RGUI, KC_LBRC, KC_RBRC, KC_RCTL        \
   //`--------+--------+--------+--------+--------+--------+--------/        \--------+--------+--------+--------+--------+--------+---------------'
-
   ),
 
   [_LOWER] = LAYOUT(
@@ -68,9 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_LCTL, KC_PEQL,  KC_KP_0, KC_PDOT,          KC_RALT, KC_SPC,          RESET,   TO(0),            DEFAULT, KC_MPRV, KC_VOLD, KC_MNXT
   //`--------+--------+--------+--------+--------+--------+--------/        \--------+--------+--------+--------+--------+--------+---------------'
   )
-
 };
-
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
