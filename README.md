@@ -14,7 +14,7 @@ qmk flash -kb kprepublic/jj40 -km Ruslano
 [Troubleshooting/tmk_core_rules.mk.patch](Troubleshooting/tmk_core_rules.mk.patch) File might be needed to apply to Debian based distros, to be able to compile.
 Without it was receiving size-check error.
 ## ErgoTravel V1.03
-[ErgoTravel V1.03](keyboards/ergotravel/keymaps/Ruslano/keymap.c)
+[ErgoTravel V1.03 keymap.c](keyboards/ergotravel/keymaps/Ruslano/keymap.c)
 
 Big Thanks goes to [/u/jpconstantineau](https://www.reddit.com/user/jpconstantineau) for designing it in a first place! You can find Build doc [here](https://github.com/jpconstantineau/ErgoTravel/)
 ### Parts
@@ -29,7 +29,7 @@ qmk compile -kb ergotravel/rev1 -km Ruslano
 qmk flash -kb ergotravel/rev1 -km Ruslano
 ```
 ## xd75am
-[XD75AM](keyboards/xiudi/xd75/keymaps/Ruslano/keymap.c)
+[XD75AM keymap.c](keyboards/xiudi/xd75/keymaps/Ruslano/keymap.c)
 ### Parts
  - PCB - https://www.aliexpress.com/item/32831044551.html
  - Plate - https://www.aliexpress.com/item/32831072285.html
