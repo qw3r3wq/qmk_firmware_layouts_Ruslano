@@ -50,4 +50,8 @@ qmk flash -kb xiudi/xd75 -km Ruslano
  - https://github.com/qmk/qmk_firmware/issues/714
  - https://github.com/algernon/ergodox-layout#tools
  - https://github.com/qmk/qmk_firmware/tree/master/docs
+   - https://docs.qmk.fm/#/feature_layers
    - https://github.com/qmk/qmk_firmware/blob/master/docs/ref_functions.md
+   - https://docs.qmk.fm/#/newbs_building_firmware
+   - https://config.qmk.fm/#/lily58/rev1/LAYOUT
+ - https://docs.qmk.fm/#/newbs_building_firmware
