@@ -28,6 +28,13 @@ Big Thanks goes to [/u/jpconstantineau](https://www.reddit.com/user/jpconstantin
 qmk compile -kb ergotravel/rev1 -km Ruslano
 qmk flash -kb ergotravel/rev1 -km Ruslano
 ```
+## xd75am
+### Parts
+ - PCB - https://www.aliexpress.com/item/32831044551.html
+ - Plate - https://www.aliexpress.com/item/32831072285.html
+ - Keycaps Taihao Red&Grey - https://www.aliexpress.com/item/32817324969.html https://ae01.alicdn.com/kf/HTB1MbCiRVXXXXcTXpXXq6xXFXXXC.jpg
+ - Case - https://www.aliexpress.com/item/1005001798968638.html
+ - Switches - Matias Quiet Click - https://www.keyboardco.com/product/matias-quiet-click-key-switch-modules-x-200.asp
 # Links
  - https://beta.docs.qmk.fm/using-qmk/advanced-keycodes/mod_tap
  - https://github.com/qmk/qmk_firmware/issues/714
