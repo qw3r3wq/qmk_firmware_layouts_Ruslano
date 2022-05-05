@@ -32,3 +32,5 @@ qmk flash -kb ergotravel/rev1 -km Ruslano
  - https://beta.docs.qmk.fm/using-qmk/advanced-keycodes/mod_tap
  - https://github.com/qmk/qmk_firmware/issues/714
  - https://github.com/algernon/ergodox-layout#tools
+ - https://github.com/qmk/qmk_firmware/tree/master/docs
+   - https://github.com/qmk/qmk_firmware/blob/master/docs/ref_functions.md
