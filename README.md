@@ -29,6 +29,7 @@ qmk compile -kb ergotravel/rev1 -km Ruslano
 qmk flash -kb ergotravel/rev1 -km Ruslano
 ```
 ## xd75am
+[XD75AM](keyboards/xiudi/xd75/keymaps/Ruslano/keymap.c)
 ### Parts
  - PCB - https://www.aliexpress.com/item/32831044551.html
  - Plate - https://www.aliexpress.com/item/32831072285.html
