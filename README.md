@@ -13,6 +13,7 @@ qmk flash -kb kprepublic/jj40 -km Ruslano
 ### Troubleshooting
 [Troubleshooting/tmk_core_rules.mk.patch](Troubleshooting/tmk_core_rules.mk.patch) File might be needed to apply to Debian based distros, to be able to compile.
 Without it was receiving size-check error.
+
 ## ErgoTravel V1.03
 [ErgoTravel V1.03 keymap.c](keyboards/ergotravel/keymaps/Ruslano/keymap.c)
 
@@ -28,14 +29,22 @@ Big Thanks goes to [/u/jpconstantineau](https://www.reddit.com/user/jpconstantin
 qmk compile -kb ergotravel/rev1 -km Ruslano
 qmk flash -kb ergotravel/rev1 -km Ruslano
 ```
+
 ## xd75am
-[XD75AM keymap.c](keyboards/xiudi/xd75/keymaps/Ruslano/keymap.c)
+[XD75AM keymap.c](keyboards/xiudi/xd75/keymaps/Ruslano/keymap.c) ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
 ### Parts
  - PCB - https://www.aliexpress.com/item/32831044551.html
  - Plate - https://www.aliexpress.com/item/32831072285.html
  - Keycaps Taihao Red&Grey - https://www.aliexpress.com/item/32817324969.html https://ae01.alicdn.com/kf/HTB1MbCiRVXXXXcTXpXXq6xXFXXXC.jpg
  - Case - https://www.aliexpress.com/item/1005001798968638.html
  - Switches - Matias Quiet Click - https://www.keyboardco.com/product/matias-quiet-click-key-switch-modules-x-200.asp
+
+### Build
+```
+qmk compile -kb xiudi/xd75 -km Ruslano
+qmk flash -kb xiudi/xd75 -km Ruslano
+```
+
 # Links
  - https://beta.docs.qmk.fm/using-qmk/advanced-keycodes/mod_tap
  - https://github.com/qmk/qmk_firmware/issues/714
