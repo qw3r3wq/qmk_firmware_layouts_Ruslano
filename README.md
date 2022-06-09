@@ -58,16 +58,16 @@ qmk flash -kb xiudi/xd75 -km Ruslano
 ### Parts
  - Preonic kit (Plate, PCB, case) https://drop.com/buy/preonic-mechanical-keyboard?defaultSelectionIds=967821
  - Keycaps:
-  - Drop + Matt3o MT3 /dev/tty Keycap Set https://drop.com/buy/drop-matt3o-mt3-dev-tty-keycap-set
-  - Handmade
+   - Drop + Matt3o MT3 /dev/tty Keycap Set https://drop.com/buy/drop-matt3o-mt3-dev-tty-keycap-set
+   - Handmade
  - Switches
-  - Kailh Plum
-  - Outemu Silent Forest (68g)
-  - Durok T1 Clear Koala
-  - Halo True
-  - Zaleos v2
-  - MX Clear
-  - Team_wolf OTM Clear Teal 80g
+   - Kailh Plum
+   - Outemu Silent Forest (68g)
+   - Durok T1 Clear Koala
+   - Halo True
+   - Zaleos v2
+   - MX Clear
+   - Team_wolf OTM Clear Teal 80g
 
 # Links
  - https://beta.docs.qmk.fm/using-qmk/advanced-keycodes/mod_tap
