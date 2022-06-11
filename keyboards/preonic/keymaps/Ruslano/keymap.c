@@ -42,15 +42,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Qwerty
  * ,-----------------------------------------------------------------------------------.
- * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  | Bksp |
+ * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |Bckspc|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Del  |
+ * | Esc  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  |Bckspc|
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * | Esc  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  "   |
+ * | Tab  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |Enter |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |Enter |
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |  Up  |Shift |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Brite| Ctrl | Alt  | GUI  |Lower |    Space    |Raise | Left | Down |  Up  |Right |
+ * | Ctrl | Alt  | GUI  |Lower |Raise |Space |Space |NUMPAD|  :;  | Left | Down |Right |
  * `-----------------------------------------------------------------------------------'
  */
 [_QWERTY] = LAYOUT_preonic_grid(
@@ -63,23 +63,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Raise
  * ,-----------------------------------------------------------------------------------.
- * |   ~  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  |   (  |   )  | Bksp |
+ * |  F11 |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | F12  |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |   ~  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  |   (  |   )  | Del  |
+ * |   `  |   1  |   2  |   3  |   4  |   5  |  6   |  7   |  8   |  9   |  0   |Bckspc|
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * | Del  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |   _  |   +  |   {  |   }  |  |   |
+ * |   ~  |   !  |   @  |   #  |   $  |   %  |  ^   |  &   |  *   |  (   |  )   | Ent  |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |ISO ~ |ISO | | Home | End  |      |
+ * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |ISO ~ |ISO | |  [   |  ]  |RShift|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |      |      |      |      |             |      | Next | Vol- | Vol+ | Play |
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT_preonic_grid(
-  KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC,
-  KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL,
-  KC_DEL,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,
-  _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,S(KC_NUHS),S(KC_NUBS),KC_HOME, KC_END, _______,
-  _______, _______, _______, _______, _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY
+  KC_F11,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F12,
+  KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
+  KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_ENT,
+  KC_LSFT, KC_SLSH, KC_BSLS, KC_QUOT, KC_QUES, KC_MINS, KC_UNDS, KC_PLUS, KC_EQL,  KC_LCBR, KC_RCBR, KC_RSFT,
+  KC_LCTL, KC_LGUI, KC_LALT, KC_PSCR, _______, KC_SPC,  KC_SPC,  KC_RALT, KC_RGUI, KC_LBRC, KC_RBRC, KC_RCTL
 ),
 
 /* Lower
