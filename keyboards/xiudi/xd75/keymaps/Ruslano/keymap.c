@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_BOT] = LAYOUT_ortho_5x15( /* TOP NUMBER AND MISSING CHAR */
         KC_ESC,		KC_1,	KC_2,		KC_3,	KC_4,	KC_5,	KC_MINS,KC_GRV,	KC_EQL,	KC_6,	KC_7,	KC_8,	KC_9,	KC_0,	KC_BSPC,
-        KC_F12,		KC_F1,	KC_F2,		KC_F3,	KC_F4,	KC_F5,	KC_MINS,KC_GRV,	KC_EQL,	KC_F6,	KC_F7,	KC_F8,	KC_F9,	KC_10,	KC_F11,
+        KC_F12,		KC_F1,	KC_F2,		KC_F3,	KC_F4,	KC_F5,	KC_MINS,KC_GRV,	KC_EQL,	KC_F6,	KC_F7,	KC_F8,	KC_F9,	KC_F10,	KC_F11,
         KC_CAPS,	KC_INS,	KC_HOME,	KC_PGUP,_______,_______,KC_HOME,KC_INS,	KC_PGUP,KC_CIRC,KC_AMPR,KC_ASTR,KC_LPRN,KC_RPRN,KC_QUOT,
         LSFT_T(KC_DEL),	KC_DEL,KC_END,		KC_PGDN,KC_QUES,KC_MINS,KC_END,	KC_UP,	KC_PGDN,KC_UNDS,KC_PLUS,KC_EQL,	KC_LCBR,KC_RCBR,RSFT_T(KC_SLSH),
 	KC_LCTL,	KC_LGUI,LALT(KC_MINS),	KC_PSCR,BOT,	KC_SPC,	KC_LEFT,KC_DOWN,KC_RGHT,KC_ENT,	KC_RALT,KC_RGUI,KC_APP,	KC_APP,	KC_RCTL
@@ -79,9 +79,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * '--------------------------------------------------------------------------------------------------------------------------------------'
      */
     [_FUNCT] = LAYOUT_ortho_5x15( /* FUNCTION */
-        KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_NLCK, KC_SLSH, KC_ASTR, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
-        KC_MSEL, KC_CALC, KC_MYCM, KC_MAIL, RGB_HUD, RGB_HUI, KC_P7,   KC_P8,   KC_P9,   KC_MINS, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS,
-        KC_MPRV, KC_MPLY, KC_MNXT, KC_MSTP, RGB_SAD, RGB_SAI, KC_P4,   KC_P5,   KC_P6,   KC_PLUS, _______, RESET,   _______, _______, _______,
+        KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_NUM,KC_SLSH, KC_ASTR, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
+        KC_MSEL, KC_CALC, KC_MYCM, KC_MAIL, RGB_HUD, RGB_HUI, KC_P7,   KC_P8,   KC_P9,   KC_MINS, _______, _______, KC_PSCR, KC_LSCR, KC_PAUS,
+        KC_MPRV, KC_MPLY, KC_MNXT, KC_MSTP, RGB_SAD, RGB_SAI, KC_P4,   KC_P5,   KC_P6,   KC_PLUS, _______, QK_BOOT,   _______, _______, _______,
         KC_VOLD, KC_MUTE, KC_VOLU, KC_APP,  RGB_VAD, RGB_VAI, KC_P1,   KC_P2,   KC_P3,   KC_PENT, _______, _______, _______, _______, _______,
         _______, _______, RGB_TOG, _______, RGB_RMOD,RGB_MOD, KC_P0,   _______, KC_PDOT, KC_PENT, KC_PENT, DEFAULT, _______, _______, _______
     )
