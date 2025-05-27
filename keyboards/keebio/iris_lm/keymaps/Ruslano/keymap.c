@@ -78,7 +78,7 @@ LSFT_T(KC_DEL),KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                        
 
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
 
-     KC_MUTE, KC_MSTP, KC_MPLY, KC_VOLD, KC_PGDN, KC_MINS, KC_LPRN,          _______, KC_PLUS, KC_END,  RM_HUED, RM_SATD, RM_VALD, EE_CLR,
+     KC_MUTE, KC_MSTP, KC_MPLY, KC_VOLD, KC_PGDN, KC_MINS, MAC_LOK,          MAC_LOK, KC_PLUS, KC_END,  RM_HUED, RM_SATD, RM_VALD, EE_CLR,
 
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
 
